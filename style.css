@@ -1,0 +1,118 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #1877f2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.nav-center span {
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.dropbtn {
+  background: #145dbf;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 10px;
+  background: white;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.feed {
+  flex: 0 0 80%;
+  margin-right: 20px;
+}
+
+.sidebar {
+  flex: 0 0 20%;
+}
+
+/* Posts */
+.post {
+  background: white;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+/* Post Actions */
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.post-actions button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: gray;
+}
+
+.post-actions button:hover {
+  color: #1877f2;
+}
+
+/* Profile */
+.profile-card, .friends-list {
+  background: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.friends-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.friends-list li {
+  margin-bottom: 6px;
+}
+
+.footer-name{
+  text-align: center;
+  background-color: blue;
+}
